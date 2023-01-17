@@ -1,0 +1,97 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0px;
+}
+.navegacion {
+    width: 1600;
+    position: relative;
+    margin: 0 auto;
+}
+.barbalogo {
+    position: relative;
+    left: 50px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+.servicios {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.servicios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3%;
+}
+.servicios li:hover{
+    border-color: #c78c19;
+    font-size: 33px;
+}
+.servicios li:hover h2{
+    font-size: 33px;
+}
+.servicios li:active{
+    border-color: aqua;
+}
+.servicios h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.productoDesc{
+    font-size: 18px;
+}
+.ProductoPrecio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+ 
+.pie {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}

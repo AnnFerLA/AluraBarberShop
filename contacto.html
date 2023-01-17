@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTG-8">
+        <title>Contacto - Barberia Alura</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="navegacion">
+             <h1 class="barbalogo"><img src="imagenes/logo.png" alt="logo barberia"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                 </ul>
+            </nav>
+        </div>
+
+        </header>
+        <main>
+            <form>
+                <label for="nombreA">Nombre y Apellido</label>
+                <input autofocus type="text" id="nombreA" class="principal" required placeholder="Juan Perez">
+                <label for="correo">Correo Electronico</label>
+                <input type="email" id="correo" class="principal" required placeholder="email@dominio.com">
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="principal" required placeholder="(+502) XXXX XXXX">
+                <label for="mensaje">Mensaje</label >
+                <textarea cols="70" rows="10"></textarea id="mensaje" class="principal">
+                <fieldset>
+                    <legend>¿Como le gustaria ser contactado?</legend>
+                    <label for="emailradio"><input type="radio" name="contacto" value="email" id="emailradio">Email</label>
+                    <label for="telefonoradio"><input type="radio" name="contacto"  value="telefono" id="telefonoradio">Telefono</label>
+                    <label for="whatsappradio"><input type="radio" name="contacto"  value="whatsapp" id="whatsappradio" checked>Whatsapp</label>
+                </fieldset>
+                <fieldset>
+                    <legend>¿En cual horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Matutino</option>
+                        <option>Vespertino</option>
+                        <option>Nocturno</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked>Le gustaria recibir novedades de la Barberia Fer?</label>
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+        <img src="imagenes/logo-blanco.png" alt="logo barberia">
+        <p class="pie">&copy Copyright Barberia Fer - 2022</p>
+    </footer>
+</body>
+</html>
